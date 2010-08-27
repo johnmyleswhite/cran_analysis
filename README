@@ -1,0 +1,10 @@
+(1) Used collect_data.R to extract connection graphs from all CRAN packages
+    available as of 11/19/2009 by using read.dcf() to parse each package's
+    DESCRIPTION file.
+
+(2) Used count_analysis.R to find number of times each package was listed in
+    a Depends, Suggests or Imports section. (The merging may have dropped some
+    entries with 0 values in any of these columns.)
+
+(3) Used graphviz.R to produce DOT files for dependency, suggestion and import
+    graphs. These are too large to visualize, though.
