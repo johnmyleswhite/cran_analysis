@@ -1,0 +1,3902 @@
+<?xml version="1.0" encoding="utf-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+	<key attr.name="in_degree_centrality" attr.type="double" for="node" id="in_degree_centrality"/>
+	<key attr.name="eigenvector_centrality" attr.type="double" for="node" id="eigenvector_centrality"/>
+	<key attr.name="pagerank" attr.type="double" for="node" id="pagerank"/>
+	<key attr.name="betweenness_centrality" attr.type="double" for="node" id="betweenness_centrality"/>
+	<graph edgedefault="directed" id="Subgraph of ()">
+		<node id="&quot;FAiR&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;oblique.tree&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;methods&quot;">
+			<data key="in_degree_centrality">
+				0.137096774194
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.0503287291835
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;psychotree&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;tseriesChaos&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00282188263012
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;utils&quot;">
+			<data key="in_degree_centrality">
+				0.104838709677
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.0286845614932
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gamlss&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;relimp&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00265703038097
+			</data>
+			<data key="betweenness_centrality">
+				1.63249314353e-05
+			</data>
+		</node>
+		<node id="&quot;ascii&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;strucchange&quot;">
+			<data key="in_degree_centrality">
+				0.00806451612903
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.0036461438759
+			</data>
+			<data key="betweenness_centrality">
+				1.63249314353e-05
+			</data>
+		</node>
+		<node id="&quot;Zelig&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00331643937759
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;colorspace (&gt;= 0.97)&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00282188263012
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;Rcapture&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;tsDyn&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;mstate&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;pedigreemm&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;arules&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00430555287253
+			</data>
+			<data key="betweenness_centrality">
+				0.000114274520047
+			</data>
+		</node>
+		<node id="&quot;digest&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00352662599802
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;quantregForest&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;AER&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;fechner&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;coda&quot;">
+			<data key="in_degree_centrality">
+				0.00806451612903
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00331643937759
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;TSdbi&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;R.oo&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;SRPM&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;graph&quot;">
+			<data key="in_degree_centrality">
+				0.00806451612903
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00496496186915
+			</data>
+			<data key="betweenness_centrality">
+				0.000114274520047
+			</data>
+		</node>
+		<node id="&quot;powerSurvEpi&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;wordnet&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;RSiena&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;tseries&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00282188263012
+			</data>
+			<data key="betweenness_centrality">
+				3.26498628706e-05
+			</data>
+		</node>
+		<node id="&quot;distrTEst&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;smacof&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;fgui&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00331643937759
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;svSocket (&gt;= 0.9-48)&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00331643937759
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;lpSolve&quot;">
+			<data key="in_degree_centrality">
+				0.00806451612903
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00529466636746
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;boa&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00260992973835
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;pbatR&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;tcltk&quot;">
+			<data key="in_degree_centrality">
+				0.0403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.0144463212425
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gsarima&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;modeltools&quot;">
+			<data key="in_degree_centrality">
+				0.00806451612903
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00348129162675
+			</data>
+			<data key="betweenness_centrality">
+				8.16246571764e-06
+			</data>
+		</node>
+		<node id="&quot;blockmodeling&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;RGtk2 (&gt;= 2.10.11)&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00260992973835
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;svTools&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;MLDS&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;sp&quot;">
+			<data key="in_degree_centrality">
+				0.00806451612903
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00310448648582
+			</data>
+			<data key="betweenness_centrality">
+				0.000146924382918
+			</data>
+		</node>
+		<node id="&quot;aroma.affymetrix&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;qvcalc (&gt;= 0.8-3)&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00265703038097
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;TSodbc&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;eRm&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;clinfun&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;automap&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;mixPHM&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;proto&quot;">
+			<data key="in_degree_centrality">
+				0.00806451612903
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00458815672822
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;mvtnorm&quot;">
+			<data key="in_degree_centrality">
+				0.0201612903226
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.0106111514119
+			</data>
+			<data key="betweenness_centrality">
+				8.16246571764e-05
+			</data>
+		</node>
+		<node id="&quot;polynom&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;rms&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;arulesSequences&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;doBy&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;multtest&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;tmvtnorm&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;rpanel&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00282188263012
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;phangorn&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;msm&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00265703038097
+			</data>
+			<data key="betweenness_centrality">
+				3.26498628706e-05
+			</data>
+		</node>
+		<node id="&quot;howmany&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;grid&quot;">
+			<data key="in_degree_centrality">
+				0.0362903225806
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.011846170027
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;BayesX&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;zoo&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00265703038097
+			</data>
+			<data key="betweenness_centrality">
+				6.52997257412e-05
+			</data>
+		</node>
+		<node id="&quot;psychometric&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;stats4&quot;">
+			<data key="in_degree_centrality">
+				0.0282258064516
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.0109133805415
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;cacheSweave&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00282188263012
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;polySegratioMM&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;lattice (&gt;= 0.16-3)&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00331643937759
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;SimComp&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;slam&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00298673487928
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;tframePlus&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;randomForest&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00265703038097
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;RPostgreSQL&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00282188263012
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;hydrosanity&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;TSdbi (&gt;= 2009.5-1)&quot;">
+			<data key="in_degree_centrality">
+				0.0282258064516
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00611892761324
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;rggobi&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;MASS&quot;">
+			<data key="in_degree_centrality">
+				0.0725806451613
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.0183078674137
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;multcomp&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00298673487928
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;svSweave&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;sampling&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gpls&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;homals&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;RKEA&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;chron&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00430555287253
+			</data>
+			<data key="betweenness_centrality">
+				3.26498628706e-05
+			</data>
+		</node>
+		<node id="&quot;operators&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00272297128063
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;connectedness&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;stashR&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00282188263012
+			</data>
+			<data key="betweenness_centrality">
+				3.26498628706e-05
+			</data>
+		</node>
+		<node id="&quot;cluster&quot;">
+			<data key="in_degree_centrality">
+				0.0120967741935
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00442094945061
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;AcceptanceSampling&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;RODBC&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;lattice&quot;">
+			<data key="in_degree_centrality">
+				0.0524193548387
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.0195942743281
+			</data>
+			<data key="betweenness_centrality">
+				0.00130599451482
+			</data>
+		</node>
+		<node id="&quot;lcd&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;spsurvey&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;TSMySQL&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;filehashSQLite&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;e1071&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00265703038097
+			</data>
+			<data key="betweenness_centrality">
+				6.52997257412e-05
+			</data>
+		</node>
+		<node id="&quot;ipred&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00265703038097
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;slam (&gt;= 0.1-1)&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00570679700875
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gcExplorer&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;SASxport&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;RLadyBug&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;car&quot;">
+			<data key="in_degree_centrality">
+				0.00806451612903
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00293963423666
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;dynlm&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;TSfame&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;sandwich&quot;">
+			<data key="in_degree_centrality">
+				0.0120967741935
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00397584837421
+			</data>
+			<data key="betweenness_centrality">
+				8.16246571764e-06
+			</data>
+		</node>
+		<node id="&quot;rPorta&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;dclone&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;fxregime&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;XML&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00430555287253
+			</data>
+			<data key="betweenness_centrality">
+				1.63249314353e-05
+			</data>
+		</node>
+		<node id="&quot;mratios&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00298673487928
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;relations&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gnm&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gpclib&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;Rgraphviz&quot;">
+			<data key="in_degree_centrality">
+				0.00806451612903
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.0036461438759
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;BiplotGUI&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;arulesNBMiner&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;cmrutils&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gridBase&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00260992973835
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;KernSmooth&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00298673487928
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;tm&quot;">
+			<data key="in_degree_centrality">
+				0.00806451612903
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00397584837421
+			</data>
+			<data key="betweenness_centrality">
+				3.26498628706e-05
+			</data>
+		</node>
+		<node id="&quot;lga&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;matrixStats (&gt;= 0.1.4)&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00282188263012
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;svDialogs&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;nlme&quot;">
+			<data key="in_degree_centrality">
+				0.0161290322581
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00541006294555
+			</data>
+			<data key="betweenness_centrality">
+				0.000187736711506
+			</data>
+		</node>
+		<node id="&quot;nnet&quot;">
+			<data key="in_degree_centrality">
+				0.0120967741935
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00414070062337
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;foreign&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00331643937759
+			</data>
+			<data key="betweenness_centrality">
+				3.26498628706e-05
+			</data>
+		</node>
+		<node id="&quot;distr&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;accuracy&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;quadprog&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00260992973835
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;boot&quot;">
+			<data key="in_degree_centrality">
+				0.0120967741935
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00727289335733
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;EffectiveDose&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;playwith&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gWidgets (&gt;= 0.0-30)&quot;">
+			<data key="in_degree_centrality">
+				0.00806451612903
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00458815672822
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gamlss.cens&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;Snowball&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;simpleboot&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;TSSQLite&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;RItools&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;biclust&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;RQDA&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;seewave&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;nodeHarvest&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;diveMove&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;RColorBrewer&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00260992973835
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;svSocket&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;class&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;cramer&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;clue&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;ape&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00331643937759
+			</data>
+			<data key="betweenness_centrality">
+				0.000114274520047
+			</data>
+		</node>
+		<node id="&quot;polyapost&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;svGUI&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;tools&quot;">
+			<data key="in_degree_centrality">
+				0.0120967741935
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00497732579795
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;TSpadi&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;lmtest&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00298673487928
+			</data>
+			<data key="betweenness_centrality">
+				8.16246571764e-06
+			</data>
+		</node>
+		<node id="&quot;SparseM&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00265703038097
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;grDevices&quot;">
+			<data key="in_degree_centrality">
+				0.0483870967742
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.0133111471863
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;mgcv&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;dplR&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;splines&quot;">
+			<data key="in_degree_centrality">
+				0.0201612903226
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.0045733200269
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gmm&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;xtable&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00265703038097
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;tlemix&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;ggm&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00331643937759
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;svIDE&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;RGtk2&quot;">
+			<data key="in_degree_centrality">
+				0.00806451612903
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00326933873497
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;svWidgets&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;sets&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;codetools&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00272297128063
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;flexmix&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00282188263012
+			</data>
+			<data key="betweenness_centrality">
+				1.63249314353e-05
+			</data>
+		</node>
+		<node id="&quot;tsModel&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00272297128063
+			</data>
+			<data key="betweenness_centrality">
+				3.26498628706e-05
+			</data>
+		</node>
+		<node id="&quot;stats&quot;">
+			<data key="in_degree_centrality">
+				0.258064516129
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.0846980372512
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;R.methodsS3&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;VhayuR&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;tframe&quot;">
+			<data key="in_degree_centrality">
+				0.00806451612903
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00480010961999
+			</data>
+			<data key="betweenness_centrality">
+				3.26498628706e-05
+			</data>
+		</node>
+		<node id="&quot;RGtk2 (&gt;= 2.12.8)&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00331643937759
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;vcd&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;robustbase&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00260992973835
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;latticist&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;cairoDevice&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;anacor&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;ETC&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;RFreak&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;VIM&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;tuneR&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00282188263012
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;DBI&quot;">
+			<data key="in_degree_centrality">
+				0.0362903225806
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00809715460311
+			</data>
+			<data key="betweenness_centrality">
+				1.63249314353e-05
+			</data>
+		</node>
+		<node id="&quot;TShistQuote&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;languageR&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gdata&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00331643937759
+			</data>
+			<data key="betweenness_centrality">
+				1.63249314353e-05
+			</data>
+		</node>
+		<node id="&quot;colorspace&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00298673487928
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;classGraph&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;ggplot2&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gmodels&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;penalized&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gWidgets&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00260992973835
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;QCA3&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;rrcov&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00331643937759
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gstat&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;betareg&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;monoProc&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;plyr (&gt;= 0.1.6)&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00260992973835
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;optBiomarker&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;RBGL&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;survival&quot;">
+			<data key="in_degree_centrality">
+				0.0403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.0172546970492
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;dlnm&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;svMisc&quot;">
+			<data key="in_degree_centrality">
+				0.0241935483871
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00700912975868
+			</data>
+			<data key="betweenness_centrality">
+				0.000146924382918
+			</data>
+		</node>
+		<node id="&quot;OAIHarvester&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;flexclust&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00298673487928
+			</data>
+			<data key="betweenness_centrality">
+				4.08123285882e-05
+			</data>
+		</node>
+		<node id="&quot;fbati&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;reshape&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00260992973835
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gtools&quot;">
+			<data key="in_degree_centrality">
+				0.0120967741935
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00811363983907
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;relaxo&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;MBESS&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;filehash&quot;">
+			<data key="in_degree_centrality">
+				0.00806451612903
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00381099612506
+			</data>
+			<data key="betweenness_centrality">
+				1.63249314353e-05
+			</data>
+		</node>
+		<node id="&quot;rJava (&gt;= 0.6-3)&quot;">
+			<data key="in_degree_centrality">
+				0.0201612903226
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.007338834257
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;spectralGP&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;muhaz&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;base&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00298673487928
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;rgl&quot;">
+			<data key="in_degree_centrality">
+				0.00806451612903
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00315158712843
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;urca&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;latticeExtra&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;DBI (&gt;= 0.2-3)&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00352662599802
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;Hmisc&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00331643937759
+			</data>
+			<data key="betweenness_centrality">
+				5.71372600235e-05
+			</data>
+		</node>
+		<node id="&quot;Matrix&quot;">
+			<data key="in_degree_centrality">
+				0.0201612903226
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00959731008147
+			</data>
+			<data key="betweenness_centrality">
+				0.000473423011623
+			</data>
+		</node>
+		<node id="&quot;RWeka&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gee&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00326698370652
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;FKF&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;RODBC (&gt;= 0.6-0)&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00282188263012
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;glmnet&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00331643937759
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;RWeka (&gt;= 0.3-19)&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00331643937759
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;lme4&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00282188263012
+			</data>
+			<data key="betweenness_centrality">
+				1.63249314353e-05
+			</data>
+		</node>
+		<node id="&quot;boolean&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gRain&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;cba&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;RSQLite&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00282188263012
+			</data>
+			<data key="betweenness_centrality">
+				1.63249314353e-05
+			</data>
+		</node>
+		<node id="&quot;reshape (&gt;= 0.8.0)&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00260992973835
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;openNLP&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;multilevel&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00331643937759
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;gsl&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00331643937759
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;TSPostgreSQL&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;simFrame&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;SweaveListingUtils&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;RMySQL (&gt;= 0.6-0)&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00282188263012
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;graphics&quot;">
+			<data key="in_degree_centrality">
+				0.173387096774
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.0467213698711
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;calib&quot;">
+			<data key="in_degree_centrality">
+				0.0
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00232732588265
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<node id="&quot;tlnise&quot;">
+			<data key="in_degree_centrality">
+				0.00403225806452
+			</data>
+			<data key="eigenvector_centrality">
+				0.0
+			</data>
+			<data key="pagerank">
+				0.00290595727829
+			</data>
+			<data key="betweenness_centrality">
+				0.0
+			</data>
+		</node>
+		<edge source="&quot;FAiR&quot;" target="&quot;stats4&quot;"/>
+		<edge source="&quot;FAiR&quot;" target="&quot;rrcov&quot;"/>
+		<edge source="&quot;oblique.tree&quot;" target="&quot;glmnet&quot;"/>
+		<edge source="&quot;oblique.tree&quot;" target="&quot;nnet&quot;"/>
+		<edge source="&quot;psychotree&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;psychotree&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;psychotree&quot;" target="&quot;sandwich&quot;"/>
+		<edge source="&quot;gamlss&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;gamlss&quot;" target="&quot;survival&quot;"/>
+		<edge source="&quot;relimp&quot;" target="&quot;tcltk&quot;"/>
+		<edge source="&quot;ascii&quot;" target="&quot;proto&quot;"/>
+		<edge source="&quot;strucchange&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;strucchange&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;Rcapture&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;Rcapture&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;tsDyn&quot;" target="&quot;tseries&quot;"/>
+		<edge source="&quot;tsDyn&quot;" target="&quot;tseriesChaos&quot;"/>
+		<edge source="&quot;tsDyn&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;tsDyn&quot;" target="&quot;nnet&quot;"/>
+		<edge source="&quot;mstate&quot;" target="&quot;survival&quot;"/>
+		<edge source="&quot;pedigreemm&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;pedigreemm&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;arules&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;arules&quot;" target="&quot;Matrix&quot;"/>
+		<edge source="&quot;quantregForest&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;quantregForest&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;quantregForest&quot;" target="&quot;grDevices&quot;"/>
+		<edge source="&quot;AER&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;fechner&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;fechner&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;fechner&quot;" target="&quot;base&quot;"/>
+		<edge source="&quot;TSdbi&quot;" target="&quot;DBI&quot;"/>
+		<edge source="&quot;TSdbi&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;R.oo&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;SRPM&quot;" target="&quot;filehash&quot;"/>
+		<edge source="&quot;SRPM&quot;" target="&quot;stashR&quot;"/>
+		<edge source="&quot;SRPM&quot;" target="&quot;cacheSweave&quot;"/>
+		<edge source="&quot;SRPM&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;graph&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;graph&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;graph&quot;" target="&quot;tools&quot;"/>
+		<edge source="&quot;graph&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;powerSurvEpi&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;powerSurvEpi&quot;" target="&quot;survival&quot;"/>
+		<edge source="&quot;wordnet&quot;" target="&quot;rJava (&gt;= 0.6-3)&quot;"/>
+		<edge source="&quot;RSiena&quot;" target="&quot;Matrix&quot;"/>
+		<edge source="&quot;tseries&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;tseries&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;tseries&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;distrTEst&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;smacof&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;smacof&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;fgui&quot;" target="&quot;tcltk&quot;"/>
+		<edge source="&quot;pbatR&quot;" target="&quot;tcltk&quot;"/>
+		<edge source="&quot;gsarima&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;modeltools&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;blockmodeling&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;svTools&quot;" target="&quot;codetools&quot;"/>
+		<edge source="&quot;svTools&quot;" target="&quot;tools&quot;"/>
+		<edge source="&quot;svTools&quot;" target="&quot;svMisc&quot;"/>
+		<edge source="&quot;svTools&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;svTools&quot;" target="&quot;operators&quot;"/>
+		<edge source="&quot;MLDS&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;sp&quot;" target="&quot;grid&quot;"/>
+		<edge source="&quot;sp&quot;" target="&quot;lattice&quot;"/>
+		<edge source="&quot;sp&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;aroma.affymetrix&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;aroma.affymetrix&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;aroma.affymetrix&quot;" target="&quot;matrixStats (&gt;= 0.1.4)&quot;"/>
+		<edge source="&quot;aroma.affymetrix&quot;" target="&quot;splines&quot;"/>
+		<edge source="&quot;TSodbc&quot;" target="&quot;DBI&quot;"/>
+		<edge source="&quot;TSodbc&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;TSodbc&quot;" target="&quot;TSdbi (&gt;= 2009.5-1)&quot;"/>
+		<edge source="&quot;TSodbc&quot;" target="&quot;RODBC (&gt;= 0.6-0)&quot;"/>
+		<edge source="&quot;eRm&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;eRm&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;eRm&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;clinfun&quot;" target="&quot;mvtnorm&quot;"/>
+		<edge source="&quot;automap&quot;" target="&quot;lattice&quot;"/>
+		<edge source="&quot;mixPHM&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;mixPHM&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;mvtnorm&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;polynom&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;polynom&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;rms&quot;" target="&quot;survival&quot;"/>
+		<edge source="&quot;arulesSequences&quot;" target="&quot;arules&quot;"/>
+		<edge source="&quot;doBy&quot;" target="&quot;Matrix&quot;"/>
+		<edge source="&quot;doBy&quot;" target="&quot;Hmisc&quot;"/>
+		<edge source="&quot;multtest&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;multtest&quot;" target="&quot;survival&quot;"/>
+		<edge source="&quot;tmvtnorm&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;tmvtnorm&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;phangorn&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;phangorn&quot;" target="&quot;ape&quot;"/>
+		<edge source="&quot;msm&quot;" target="&quot;mvtnorm&quot;"/>
+		<edge source="&quot;msm&quot;" target="&quot;survival&quot;"/>
+		<edge source="&quot;howmany&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;howmany&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;BayesX&quot;" target="&quot;sp&quot;"/>
+		<edge source="&quot;BayesX&quot;" target="&quot;coda&quot;"/>
+		<edge source="&quot;BayesX&quot;" target="&quot;colorspace (&gt;= 0.97)&quot;"/>
+		<edge source="&quot;BayesX&quot;" target="&quot;splines&quot;"/>
+		<edge source="&quot;zoo&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;zoo&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;zoo&quot;" target="&quot;lattice&quot;"/>
+		<edge source="&quot;zoo&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;zoo&quot;" target="&quot;grDevices&quot;"/>
+		<edge source="&quot;psychometric&quot;" target="&quot;multilevel&quot;"/>
+		<edge source="&quot;psychometric&quot;" target="&quot;nlme&quot;"/>
+		<edge source="&quot;polySegratioMM&quot;" target="&quot;gtools&quot;"/>
+		<edge source="&quot;SimComp&quot;" target="&quot;mvtnorm&quot;"/>
+		<edge source="&quot;SimComp&quot;" target="&quot;multcomp&quot;"/>
+		<edge source="&quot;SimComp&quot;" target="&quot;mratios&quot;"/>
+		<edge source="&quot;tframePlus&quot;" target="&quot;tframe&quot;"/>
+		<edge source="&quot;hydrosanity&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;hydrosanity&quot;" target="&quot;grDevices&quot;"/>
+		<edge source="&quot;hydrosanity&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;hydrosanity&quot;" target="&quot;gWidgets&quot;"/>
+		<edge source="&quot;hydrosanity&quot;" target="&quot;grid&quot;"/>
+		<edge source="&quot;hydrosanity&quot;" target="&quot;reshape&quot;"/>
+		<edge source="&quot;hydrosanity&quot;" target="&quot;RGtk2&quot;"/>
+		<edge source="&quot;rggobi&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;rggobi&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;rggobi&quot;" target="&quot;RGtk2&quot;"/>
+		<edge source="&quot;svSweave&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;sampling&quot;" target="&quot;lpSolve&quot;"/>
+		<edge source="&quot;gpls&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;homals&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;homals&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;RKEA&quot;" target="&quot;rJava (&gt;= 0.6-3)&quot;"/>
+		<edge source="&quot;RKEA&quot;" target="&quot;tm&quot;"/>
+		<edge source="&quot;chron&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;chron&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;connectedness&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;stashR&quot;" target="&quot;tools&quot;"/>
+		<edge source="&quot;stashR&quot;" target="&quot;digest&quot;"/>
+		<edge source="&quot;AcceptanceSampling&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;RODBC&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;lattice&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;lattice&quot;" target="&quot;grid&quot;"/>
+		<edge source="&quot;lattice&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;lattice&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;lattice&quot;" target="&quot;grDevices&quot;"/>
+		<edge source="&quot;lcd&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;lcd&quot;" target="&quot;ggm&quot;"/>
+		<edge source="&quot;spsurvey&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;spsurvey&quot;" target="&quot;foreign&quot;"/>
+		<edge source="&quot;TSMySQL&quot;" target="&quot;DBI&quot;"/>
+		<edge source="&quot;TSMySQL&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;TSMySQL&quot;" target="&quot;RMySQL (&gt;= 0.6-0)&quot;"/>
+		<edge source="&quot;TSMySQL&quot;" target="&quot;TSdbi (&gt;= 2009.5-1)&quot;"/>
+		<edge source="&quot;filehashSQLite&quot;" target="&quot;filehash&quot;"/>
+		<edge source="&quot;filehashSQLite&quot;" target="&quot;DBI&quot;"/>
+		<edge source="&quot;e1071&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;e1071&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;e1071&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;e1071&quot;" target="&quot;grDevices&quot;"/>
+		<edge source="&quot;gcExplorer&quot;" target="&quot;Rgraphviz&quot;"/>
+		<edge source="&quot;gcExplorer&quot;" target="&quot;modeltools&quot;"/>
+		<edge source="&quot;gcExplorer&quot;" target="&quot;flexclust&quot;"/>
+		<edge source="&quot;SASxport&quot;" target="&quot;chron&quot;"/>
+		<edge source="&quot;RLadyBug&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;RLadyBug&quot;" target="&quot;grDevices&quot;"/>
+		<edge source="&quot;RLadyBug&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;RLadyBug&quot;" target="&quot;quadprog&quot;"/>
+		<edge source="&quot;RLadyBug&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;RLadyBug&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;RLadyBug&quot;" target="&quot;boa&quot;"/>
+		<edge source="&quot;dynlm&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;dynlm&quot;" target="&quot;strucchange&quot;"/>
+		<edge source="&quot;TSfame&quot;" target="&quot;DBI&quot;"/>
+		<edge source="&quot;TSfame&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;TSfame&quot;" target="&quot;tframe&quot;"/>
+		<edge source="&quot;TSfame&quot;" target="&quot;TSdbi (&gt;= 2009.5-1)&quot;"/>
+		<edge source="&quot;sandwich&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;rPorta&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;dclone&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;fxregime&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;fxregime&quot;" target="&quot;car&quot;"/>
+		<edge source="&quot;fxregime&quot;" target="&quot;strucchange&quot;"/>
+		<edge source="&quot;fxregime&quot;" target="&quot;sandwich&quot;"/>
+		<edge source="&quot;fxregime&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;fxregime&quot;" target="&quot;zoo&quot;"/>
+		<edge source="&quot;XML&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;mratios&quot;" target="&quot;mvtnorm&quot;"/>
+		<edge source="&quot;relations&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;relations&quot;" target="&quot;cluster&quot;"/>
+		<edge source="&quot;relations&quot;" target="&quot;slam&quot;"/>
+		<edge source="&quot;gnm&quot;" target="&quot;relimp&quot;"/>
+		<edge source="&quot;gnm&quot;" target="&quot;nnet&quot;"/>
+		<edge source="&quot;gnm&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;gnm&quot;" target="&quot;qvcalc (&gt;= 0.8-3)&quot;"/>
+		<edge source="&quot;gnm&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;gnm&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;gpclib&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;BiplotGUI&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;BiplotGUI&quot;" target="&quot;KernSmooth&quot;"/>
+		<edge source="&quot;BiplotGUI&quot;" target="&quot;colorspace&quot;"/>
+		<edge source="&quot;arulesNBMiner&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;cmrutils&quot;" target="&quot;grDevices&quot;"/>
+		<edge source="&quot;tm&quot;" target="&quot;slam (&gt;= 0.1-1)&quot;"/>
+		<edge source="&quot;lga&quot;" target="&quot;lattice&quot;"/>
+		<edge source="&quot;lga&quot;" target="&quot;boot&quot;"/>
+		<edge source="&quot;svDialogs&quot;" target="&quot;tcltk&quot;"/>
+		<edge source="&quot;svDialogs&quot;" target="&quot;svMisc&quot;"/>
+		<edge source="&quot;nlme&quot;" target="&quot;lattice&quot;"/>
+		<edge source="&quot;foreign&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;foreign&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;distr&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;accuracy&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;EffectiveDose&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;playwith&quot;" target="&quot;RGtk2 (&gt;= 2.10.11)&quot;"/>
+		<edge source="&quot;playwith&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;playwith&quot;" target="&quot;grDevices&quot;"/>
+		<edge source="&quot;playwith&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;playwith&quot;" target="&quot;gridBase&quot;"/>
+		<edge source="&quot;playwith&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;playwith&quot;" target="&quot;gWidgets (&gt;= 0.0-30)&quot;"/>
+		<edge source="&quot;gamlss.cens&quot;" target="&quot;survival&quot;"/>
+		<edge source="&quot;Snowball&quot;" target="&quot;RWeka (&gt;= 0.3-19)&quot;"/>
+		<edge source="&quot;Snowball&quot;" target="&quot;rJava (&gt;= 0.6-3)&quot;"/>
+		<edge source="&quot;simpleboot&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;simpleboot&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;TSSQLite&quot;" target="&quot;DBI&quot;"/>
+		<edge source="&quot;TSSQLite&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;TSSQLite&quot;" target="&quot;RSQLite&quot;"/>
+		<edge source="&quot;TSSQLite&quot;" target="&quot;TSdbi (&gt;= 2009.5-1)&quot;"/>
+		<edge source="&quot;RItools&quot;" target="&quot;SparseM&quot;"/>
+		<edge source="&quot;RItools&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;RItools&quot;" target="&quot;lattice&quot;"/>
+		<edge source="&quot;RItools&quot;" target="&quot;xtable&quot;"/>
+		<edge source="&quot;RItools&quot;" target="&quot;grid&quot;"/>
+		<edge source="&quot;RItools&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;biclust&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;RQDA&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;RQDA&quot;" target="&quot;RGtk2 (&gt;= 2.12.8)&quot;"/>
+		<edge source="&quot;seewave&quot;" target="&quot;rgl&quot;"/>
+		<edge source="&quot;seewave&quot;" target="&quot;rpanel&quot;"/>
+		<edge source="&quot;seewave&quot;" target="&quot;tuneR&quot;"/>
+		<edge source="&quot;seewave&quot;" target="&quot;tcltk&quot;"/>
+		<edge source="&quot;nodeHarvest&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;nodeHarvest&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;nodeHarvest&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;diveMove&quot;" target="&quot;stats4&quot;"/>
+		<edge source="&quot;svSocket&quot;" target="&quot;tcltk&quot;"/>
+		<edge source="&quot;svSocket&quot;" target="&quot;svMisc&quot;"/>
+		<edge source="&quot;class&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;cramer&quot;" target="&quot;boot&quot;"/>
+		<edge source="&quot;clue&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;clue&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;clue&quot;" target="&quot;cluster&quot;"/>
+		<edge source="&quot;clue&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;ape&quot;" target="&quot;gee&quot;"/>
+		<edge source="&quot;ape&quot;" target="&quot;lattice&quot;"/>
+		<edge source="&quot;ape&quot;" target="&quot;nlme&quot;"/>
+		<edge source="&quot;polyapost&quot;" target="&quot;boot&quot;"/>
+		<edge source="&quot;svGUI&quot;" target="&quot;svSocket (&gt;= 0.9-48)&quot;"/>
+		<edge source="&quot;svGUI&quot;" target="&quot;svMisc&quot;"/>
+		<edge source="&quot;TSpadi&quot;" target="&quot;DBI&quot;"/>
+		<edge source="&quot;TSpadi&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;TSpadi&quot;" target="&quot;TSdbi (&gt;= 2009.5-1)&quot;"/>
+		<edge source="&quot;lmtest&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;lmtest&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;mgcv&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;mgcv&quot;" target="&quot;Matrix&quot;"/>
+		<edge source="&quot;mgcv&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;mgcv&quot;" target="&quot;nlme&quot;"/>
+		<edge source="&quot;dplR&quot;" target="&quot;grid&quot;"/>
+		<edge source="&quot;dplR&quot;" target="&quot;lattice&quot;"/>
+		<edge source="&quot;gmm&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;tlemix&quot;" target="&quot;stats4&quot;"/>
+		<edge source="&quot;tlemix&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;tlemix&quot;" target="&quot;modeltools&quot;"/>
+		<edge source="&quot;tlemix&quot;" target="&quot;flexmix&quot;"/>
+		<edge source="&quot;svIDE&quot;" target="&quot;tcltk&quot;"/>
+		<edge source="&quot;svIDE&quot;" target="&quot;svMisc&quot;"/>
+		<edge source="&quot;svIDE&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;svWidgets&quot;" target="&quot;tcltk&quot;"/>
+		<edge source="&quot;svWidgets&quot;" target="&quot;svMisc&quot;"/>
+		<edge source="&quot;svWidgets&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;sets&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;flexmix&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;flexmix&quot;" target="&quot;stats4&quot;"/>
+		<edge source="&quot;flexmix&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;tsModel&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;tsModel&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;tsModel&quot;" target="&quot;tlnise&quot;"/>
+		<edge source="&quot;tsModel&quot;" target="&quot;splines&quot;"/>
+		<edge source="&quot;R.methodsS3&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;VhayuR&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;VhayuR&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;tframe&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;vcd&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;vcd&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;vcd&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;vcd&quot;" target="&quot;grDevices&quot;"/>
+		<edge source="&quot;latticist&quot;" target="&quot;gWidgets (&gt;= 0.0-30)&quot;"/>
+		<edge source="&quot;cairoDevice&quot;" target="&quot;grDevices&quot;"/>
+		<edge source="&quot;anacor&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;anacor&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;ETC&quot;" target="&quot;mvtnorm&quot;"/>
+		<edge source="&quot;RFreak&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;VIM&quot;" target="&quot;tcltk&quot;"/>
+		<edge source="&quot;VIM&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;VIM&quot;" target="&quot;grDevices&quot;"/>
+		<edge source="&quot;VIM&quot;" target="&quot;robustbase&quot;"/>
+		<edge source="&quot;VIM&quot;" target="&quot;sp&quot;"/>
+		<edge source="&quot;VIM&quot;" target="&quot;car&quot;"/>
+		<edge source="&quot;VIM&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;DBI&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;TShistQuote&quot;" target="&quot;DBI&quot;"/>
+		<edge source="&quot;TShistQuote&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;TShistQuote&quot;" target="&quot;TSdbi (&gt;= 2009.5-1)&quot;"/>
+		<edge source="&quot;languageR&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;languageR&quot;" target="&quot;coda&quot;"/>
+		<edge source="&quot;languageR&quot;" target="&quot;lme4&quot;"/>
+		<edge source="&quot;languageR&quot;" target="&quot;lattice&quot;"/>
+		<edge source="&quot;gdata&quot;" target="&quot;gtools&quot;"/>
+		<edge source="&quot;classGraph&quot;" target="&quot;Rgraphviz&quot;"/>
+		<edge source="&quot;classGraph&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;classGraph&quot;" target="&quot;graph&quot;"/>
+		<edge source="&quot;ggplot2&quot;" target="&quot;RColorBrewer&quot;"/>
+		<edge source="&quot;ggplot2&quot;" target="&quot;reshape (&gt;= 0.8.0)&quot;"/>
+		<edge source="&quot;ggplot2&quot;" target="&quot;splines&quot;"/>
+		<edge source="&quot;ggplot2&quot;" target="&quot;proto&quot;"/>
+		<edge source="&quot;ggplot2&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;ggplot2&quot;" target="&quot;plyr (&gt;= 0.1.6)&quot;"/>
+		<edge source="&quot;ggplot2&quot;" target="&quot;grid&quot;"/>
+		<edge source="&quot;gmodels&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;gmodels&quot;" target="&quot;gdata&quot;"/>
+		<edge source="&quot;penalized&quot;" target="&quot;survival&quot;"/>
+		<edge source="&quot;QCA3&quot;" target="&quot;gtools&quot;"/>
+		<edge source="&quot;QCA3&quot;" target="&quot;lpSolve&quot;"/>
+		<edge source="&quot;rrcov&quot;" target="&quot;stats4&quot;"/>
+		<edge source="&quot;gstat&quot;" target="&quot;lattice&quot;"/>
+		<edge source="&quot;betareg&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;betareg&quot;" target="&quot;lmtest&quot;"/>
+		<edge source="&quot;betareg&quot;" target="&quot;sandwich&quot;"/>
+		<edge source="&quot;monoProc&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;optBiomarker&quot;" target="&quot;e1071&quot;"/>
+		<edge source="&quot;optBiomarker&quot;" target="&quot;rgl&quot;"/>
+		<edge source="&quot;optBiomarker&quot;" target="&quot;ipred&quot;"/>
+		<edge source="&quot;optBiomarker&quot;" target="&quot;randomForest&quot;"/>
+		<edge source="&quot;optBiomarker&quot;" target="&quot;msm&quot;"/>
+		<edge source="&quot;optBiomarker&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;RBGL&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;dlnm&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;dlnm&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;dlnm&quot;" target="&quot;grDevices&quot;"/>
+		<edge source="&quot;dlnm&quot;" target="&quot;splines&quot;"/>
+		<edge source="&quot;dlnm&quot;" target="&quot;tsModel&quot;"/>
+		<edge source="&quot;svMisc&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;svMisc&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;OAIHarvester&quot;" target="&quot;XML&quot;"/>
+		<edge source="&quot;flexclust&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;flexclust&quot;" target="&quot;stats4&quot;"/>
+		<edge source="&quot;flexclust&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;fbati&quot;" target="&quot;tcltk&quot;"/>
+		<edge source="&quot;fbati&quot;" target="&quot;fgui&quot;"/>
+		<edge source="&quot;relaxo&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;relaxo&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;relaxo&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;MBESS&quot;" target="&quot;MASS&quot;"/>
+		<edge source="&quot;MBESS&quot;" target="&quot;gsl&quot;"/>
+		<edge source="&quot;filehash&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;spectralGP&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;spectralGP&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;muhaz&quot;" target="&quot;survival&quot;"/>
+		<edge source="&quot;urca&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;urca&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;urca&quot;" target="&quot;nlme&quot;"/>
+		<edge source="&quot;latticeExtra&quot;" target="&quot;grid&quot;"/>
+		<edge source="&quot;latticeExtra&quot;" target="&quot;lattice (&gt;= 0.16-3)&quot;"/>
+		<edge source="&quot;Hmisc&quot;" target="&quot;lattice&quot;"/>
+		<edge source="&quot;Hmisc&quot;" target="&quot;survival&quot;"/>
+		<edge source="&quot;Hmisc&quot;" target="&quot;cluster&quot;"/>
+		<edge source="&quot;Matrix&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;Matrix&quot;" target="&quot;grid&quot;"/>
+		<edge source="&quot;Matrix&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;Matrix&quot;" target="&quot;lattice&quot;"/>
+		<edge source="&quot;RWeka&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;RWeka&quot;" target="&quot;grid&quot;"/>
+		<edge source="&quot;RWeka&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;RWeka&quot;" target="&quot;rJava (&gt;= 0.6-3)&quot;"/>
+		<edge source="&quot;RWeka&quot;" target="&quot;utils&quot;"/>
+		<edge source="&quot;FKF&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;lme4&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;lme4&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;boolean&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;boolean&quot;" target="&quot;Zelig&quot;"/>
+		<edge source="&quot;gRain&quot;" target="&quot;graph&quot;"/>
+		<edge source="&quot;cba&quot;" target="&quot;Matrix&quot;"/>
+		<edge source="&quot;RSQLite&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;RSQLite&quot;" target="&quot;DBI (&gt;= 0.2-3)&quot;"/>
+		<edge source="&quot;openNLP&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;openNLP&quot;" target="&quot;rJava (&gt;= 0.6-3)&quot;"/>
+		<edge source="&quot;openNLP&quot;" target="&quot;tm&quot;"/>
+		<edge source="&quot;TSPostgreSQL&quot;" target="&quot;DBI&quot;"/>
+		<edge source="&quot;TSPostgreSQL&quot;" target="&quot;RPostgreSQL&quot;"/>
+		<edge source="&quot;TSPostgreSQL&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;TSPostgreSQL&quot;" target="&quot;TSdbi (&gt;= 2009.5-1)&quot;"/>
+		<edge source="&quot;simFrame&quot;" target="&quot;stats4&quot;"/>
+		<edge source="&quot;simFrame&quot;" target="&quot;methods&quot;"/>
+		<edge source="&quot;simFrame&quot;" target="&quot;lattice&quot;"/>
+		<edge source="&quot;SweaveListingUtils&quot;" target="&quot;stats&quot;"/>
+		<edge source="&quot;calib&quot;" target="&quot;graphics&quot;"/>
+		<edge source="&quot;tlnise&quot;" target="&quot;stats&quot;"/>
+	</graph>
+</graphml>
