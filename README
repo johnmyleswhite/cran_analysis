@@ -8,3 +8,8 @@
 
 (3) Used graphviz.R to produce DOT files for dependency, suggestion and import
     graphs. These are too large to visualize, though.
+
+(4) Used page_rank.R to calculate PageRank for depends, suggests and imports
+    graphs.
+
+(5) Used pool_analyses.R to plot relationships between various measures.
