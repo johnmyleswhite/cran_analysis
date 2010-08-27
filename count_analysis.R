@@ -12,26 +12,3 @@ for (type in c('depends', 'suggests', 'imports'))
 names(depends.counts) <- c('Package', 'Depended')
 names(imports.counts) <- c('Package', 'Imported')
 names(suggests.counts) <- c('Package', 'Suggested')
-
-summary.statistics <- merge(depends.counts,
-                            merge(suggests.counts, imports.counts,
-                                  by.x = 'Package', by.y = 'Package'),
-                            by.x = 'Package', by.y = 'Package')
-
-png('graphs/depends_vs_imports.png')
-ggplot(summary.statistics, aes(x = Depended, y = Imported)) +
-  geom_point() +
-  geom_smooth(method = 'lm', se = FALSE)
-dev.off()
-
-png('graphs/depends_vs_suggests.png')
-ggplot(summary.statistics, aes(x = Depended, y = Suggested)) +
-  geom_point() +
-  geom_smooth(method = 'lm', se = FALSE)
-dev.off()
-
-png('graphs/imports_vs_suggests.png')
-ggplot(summary.statistics, aes(x = Imported, y = Suggested)) +
-  geom_point() +
-  geom_smooth(method = 'lm', se = FALSE)
-dev.off()

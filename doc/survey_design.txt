@@ -1,0 +1,7 @@
+Take the top twenty-five most highly PageRanked packages and ask people to sort them by usefulness.
+
+Convert ranks to worth scores, regress against predictors.
+
+> library('ProjectTemplate')
+> load.project()
+> tail(ranks[order(ranks$DependsPageRank),], n = 50)

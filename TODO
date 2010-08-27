@@ -1,3 +1,3 @@
-(1) Implement a version of PageRank to assess the quality of packages.
+(1) `depends` seem to have some doubled rows, while the merging operations
+leave very few rows for `summary.statistics`. Decide how to handle this.
 
-(2) Invent and automate other measures of package quality.
