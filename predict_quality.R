@@ -16,21 +16,38 @@ packages <- merge(packages,
                   by = 'Package',
                   all.x = TRUE)
 packages$DependencyCount <- scale(ifelse(is.na(packages$DependencyCount), 0, packages$DependencyCount))
+
 packages <- merge(packages,
                   suggestions,
                   by = 'Package',
                   all.x = TRUE)
 packages$SuggestionCount <- scale(ifelse(is.na(packages$SuggestionCount), 0, packages$SuggestionCount))
+
 packages <- merge(packages,
                   importings,
                   by = 'Package',
                   all.x = TRUE)
 packages$ImportCount <- scale(ifelse(is.na(packages$ImportCount), 0, packages$ImportCount))
+
 packages <- merge(packages,
                   inclusions,
                   by = 'Package',
                   all.x = TRUE)
 packages$ViewsIncluding <- scale(ifelse(is.na(packages$ViewsIncluding), 0, packages$ViewsIncluding))
+
+core <- transform(core, CorePackage = rep(1, nrow(core)))
+packages <- merge(packages,
+                  core,
+                  by = 'Package',
+                  all.x = TRUE)
+packages$CorePackage <- ifelse(is.na(packages$CorePackage), 0, 1)
+
+recommended <- transform(recommended, RecommendedPackage = rep(1, nrow(recommended)))
+packages <- merge(packages,
+                  recommended,
+                  by = 'Package',
+                  all.x = TRUE)
+packages$RecommendedPackage <- ifelse(is.na(packages$RecommendedPackage), 0, 1)
 
 # Grab our installation data for training our prediction algorithm.
 user.count <- with(installations, length(unique(User)))
@@ -44,8 +61,8 @@ packages <- transform(packages,
                                                   }))
 
 # Fit a linear model only to packages that were installed by "choice"
-lm.fit <- lm(InstallProbability ~ DependencyCount + SuggestionCount + ImportCount + ViewsIncluding,
-             data = subset(packages, !(Package %in% recommended$Package) & !(Package %in% recommended$Package)))
+lm.fit <- lm(InstallProbability ~ DependencyCount + SuggestionCount + ImportCount + ViewsIncluding + CorePackage + RecommendedPackage,
+             data = packages)
 summary(lm.fit)
 packages <- transform(packages, QualityMetric = predict(lm.fit, newdata = packages))
 tail(packages[order(packages$QualityMetric),c('Package', 'QualityMetric')], n = 50)
@@ -89,11 +106,11 @@ dev.off()
 
 epsilon <- 0.3
 pdf('graphs/errors.pdf')
-ggplot(subset(packages, Error > epsilon),
-       aes(x = QualityMetric + runif(nrow(subset(packages, Error > epsilon)), 0, 0.4),
-           y = InstallProbability + runif(nrow(subset(packages, Error > epsilon)), -0.2, 0.2))) +
+ggplot(subset(packages, Error > epsilon & RecommendedPackage == 0),
+       aes(x = QualityMetric + runif(nrow(subset(packages, Error > epsilon & RecommendedPackage == 0)), 0, 0.4),
+           y = InstallProbability + runif(nrow(subset(packages, Error > epsilon & RecommendedPackage == 0)), -0.4, 0.4))) +
   geom_text(aes(label = Package)) +
-  xlim(c(0, 2)) +
+  xlim(c(0, 1)) +
   ylim(c(0, 1)) +
   opts(title = 'Where Our Metric Fails') +
   xlab('Quality Metric') +

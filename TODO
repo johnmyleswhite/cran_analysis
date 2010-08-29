@@ -14,3 +14,7 @@ ExplicitRating ~ DependsRankRank + SuggestsPageRank + ImportsPageRank + ViewsInc
 (6) Consider getting Top 10 Lists from various community figures, then doing logistic regression on RecommendedPackage.
 
 (7) Think about adapting approach to other languages like Ruby, Python and Perl?
+
+(8) Clean up authors.csv files by auto-cleaning Authors entries.
+
+(9) Incorporate author's package count into predictive model.
