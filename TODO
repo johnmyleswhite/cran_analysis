@@ -1,3 +1,16 @@
 (1) `depends` seem to have some doubled rows, while the merging operations
 leave very few rows for `summary.statistics`. Decide how to handle this.
 
+(2) Want to make data set contain a row for every package: don't let isolation of package in graphs remove it from the system.
+
+(3) Get information about authors and enhances.
+
+(4) Get information about file size of raw package source, and other metlab metrics.
+
+(5) Models should at least look like this before the end:
+
+ExplicitRating ~ DependsRankRank + SuggestsPageRank + ImportsPageRank + ViewsIncluding + AuthorTotalPackages + PackageDownloads + AdjustedPackageDownloads + MetlabInfo
+
+(6) Consider getting Top 10 Lists from various community figures, then doing logistic regression on RecommendedPackage.
+
+(7) Think about adapting approach to other languages like Ruby, Python and Perl?

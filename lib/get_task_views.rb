@@ -43,7 +43,7 @@ task_views.each do |task_view|
   html = File.open('tmp.html', 'r') {|f| f.read()}
   packages = html.scan(Regexp.new('<li><a href="\.\./packages/[^/]+/index.html">([^<]+)</a></li>')).flatten
   packages.each do |package|
-    data_file.puts "#{view}\t#{package}"
+    data_file.puts "#{view},#{package}"
   end
   `rm tmp.html`
 end
