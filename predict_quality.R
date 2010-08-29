@@ -88,7 +88,7 @@ ggplot(packages, aes(x = QualityMetric, y = InstallProbability)) +
 dev.off()
 
 epsilon <- 0.3
-pdf('graphs/quality_with_labels.pdf')
+pdf('graphs/errors.pdf')
 ggplot(subset(packages, Error > epsilon),
        aes(x = QualityMetric + runif(nrow(subset(packages, Error > epsilon)), 0, 0.4),
            y = InstallProbability + runif(nrow(subset(packages, Error > epsilon)), -0.2, 0.2))) +
