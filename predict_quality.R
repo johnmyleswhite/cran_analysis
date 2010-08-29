@@ -49,6 +49,7 @@ lm.fit <- lm(InstallProbability ~ DependencyCount + SuggestionCount + ImportCoun
 summary(lm.fit)
 packages <- transform(packages, QualityMetric = predict(lm.fit, newdata = packages))
 tail(packages[order(packages$QualityMetric),c('Package', 'QualityMetric')], n = 50)
+packages <- transform(packages, Error = abs(QualityMetric - InstallProbability))
 
 # Make some plots to see how the predictors work on their own.
 pdf('images/dependency.pdf')
@@ -76,5 +77,20 @@ pdf('images/inclusion.pdf')
 ggplot(packages, aes(x = ViewsIncluding, y = InstallProbability)) +
   geom_jitter() +
   geom_smooth(method = 'lm') +
+  ylim(c(0, 1))
+dev.off()
+
+pdf('images/quality.pdf')
+ggplot(packages, aes(x = QualityMetric, y = InstallProbability)) +
+  geom_jitter() +
+  geom_smooth(method = 'lm') +
+  ylim(c(0, 1))
+dev.off()
+
+epsilon <- 0.3
+pdf('images/quality_with_labels.pdf')
+ggplot(subset(packages, Error > epsilon), aes(x = QualityMetric + runif(nrow(subset(packages, Error > epsilon)), 0, 0.4), y = InstallProbability + runif(nrow(subset(packages, Error > epsilon)), -0.1, 0.1))) +
+  geom_text(aes(label = Package)) +
+  xlim(c(0, 2)) +
   ylim(c(0, 1))
 dev.off()
