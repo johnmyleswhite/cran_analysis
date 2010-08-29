@@ -11,10 +11,6 @@ summary.statistics <- merge(depends.counts,
 
 summary.statistics <- merge(summary.statistics, ranks, by.x = 'Package', by.y = 'Package')
 
-write.csv(summary.statistics,
-          file = file.path('data', 'summary_statistics.csv'),
-          row.names = FALSE)
-
 png('graphs/depends_vs_imports.png')
 ggplot(summary.statistics, aes(x = Depended, y = Imported)) +
   geom_point() +
