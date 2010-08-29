@@ -8,7 +8,7 @@ for (data.file in data.files)
   {
     variable.name <- sub('\\.csv$', '', data.file, ignore.case = TRUE, perl = TRUE)
     variable.name <- clean.variable.name(variable.name)
-    print(paste("Loading the", variable.name, "data set"))
+    cat(paste("Loading data set: ", variable.name, '\n', sep = ''))
     assign(variable.name, read.csv(filename, header = TRUE, sep = ','))
   }
   
@@ -16,7 +16,7 @@ for (data.file in data.files)
   {
     variable.name <- sub('\\.tsv$', '', data.file, ignore.case = TRUE, perl = TRUE)
     variable.name <- clean.variable.name(variable.name)
-    print(paste("Loading the", variable.name, "data set"))
+    cat(paste("Loading data set: ", variable.name, '\n', sep = ''))
     assign(variable.name, read.csv(filename, header = TRUE, sep = '\t'))
   }
   
@@ -24,7 +24,7 @@ for (data.file in data.files)
   {
     variable.name <- sub('\\.wsv$', '', data.file, ignore.case = TRUE, perl = TRUE)
     variable.name <- clean.variable.name(variable.name)
-    print(paste("Loading the", variable.name, "data set"))
+    cat(paste("Loading data set: ", variable.name, '\n', sep = ''))
     assign(variable.name, read.csv(filename, header = TRUE, sep = ' '))
   }
 }

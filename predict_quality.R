@@ -52,35 +52,35 @@ tail(packages[order(packages$QualityMetric),c('Package', 'QualityMetric')], n = 
 packages <- transform(packages, Error = abs(QualityMetric - InstallProbability))
 
 # Make some plots to see how the predictors work on their own.
-pdf('images/dependency.pdf')
+pdf('graphs/dependency.pdf')
 ggplot(packages, aes(x = DependencyCount, y = InstallProbability)) +
   geom_jitter() +
   geom_smooth(method = 'lm') +
   ylim(c(0, 1))
 dev.off()
 
-pdf('images/suggestion.pdf')
+pdf('graphs/suggestion.pdf')
 ggplot(packages, aes(x = SuggestionCount, y = InstallProbability)) +
   geom_jitter() +
   geom_smooth(method = 'lm') +
   ylim(c(0, 1))
 dev.off()
 
-pdf('images/importing.pdf')
+pdf('graphs/importing.pdf')
 ggplot(packages, aes(x = ImportCount, y = InstallProbability)) +
   geom_jitter() +
   geom_smooth(method = 'lm') +
   ylim(c(0, 1))
 dev.off()
 
-pdf('images/inclusion.pdf')
+pdf('graphs/inclusion.pdf')
 ggplot(packages, aes(x = ViewsIncluding, y = InstallProbability)) +
   geom_jitter() +
   geom_smooth(method = 'lm') +
   ylim(c(0, 1))
 dev.off()
 
-pdf('images/quality.pdf')
+pdf('graphs/quality.pdf')
 ggplot(packages, aes(x = QualityMetric, y = InstallProbability)) +
   geom_jitter() +
   geom_smooth(method = 'lm') +
@@ -88,9 +88,14 @@ ggplot(packages, aes(x = QualityMetric, y = InstallProbability)) +
 dev.off()
 
 epsilon <- 0.3
-pdf('images/quality_with_labels.pdf')
-ggplot(subset(packages, Error > epsilon), aes(x = QualityMetric + runif(nrow(subset(packages, Error > epsilon)), 0, 0.4), y = InstallProbability + runif(nrow(subset(packages, Error > epsilon)), -0.1, 0.1))) +
+pdf('graphs/quality_with_labels.pdf')
+ggplot(subset(packages, Error > epsilon),
+       aes(x = QualityMetric + runif(nrow(subset(packages, Error > epsilon)), 0, 0.4),
+           y = InstallProbability + runif(nrow(subset(packages, Error > epsilon)), -0.2, 0.2))) +
   geom_text(aes(label = Package)) +
   xlim(c(0, 2)) +
-  ylim(c(0, 1))
+  ylim(c(0, 1)) +
+  opts(title = 'Where Our Metric Fails') +
+  xlab('Quality Metric') +
+  ylab('P(Package is Installed)')
 dev.off()
