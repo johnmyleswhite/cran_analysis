@@ -11,3 +11,13 @@ for (user in unique(installations$User))
                                                    Version = "2.10.1",
                                                    User = user))
 }
+
+user.count <- with(installations, length(unique(User)))
+
+packages <- transform(packages,
+                      InstallProbability = sapply(packages$Package,
+                                                  function (p)
+                                                  {
+                                                    nrow(subset(installations,
+                                                                Package == as.character(p))) / user.count
+                                                  }))

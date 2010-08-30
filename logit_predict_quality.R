@@ -71,39 +71,61 @@ logit.fit <- glm(Installed ~ DependencyCount + SuggestionCount + ImportCount + V
 summary(logit.fit)
 
 invlogit <- function(z) {1 / (1 + exp(-z))}
-packages <- transform(packages, QualityMetric = invlogit(predict(logit.fit, newdata = packages)))
-tail(packages[order(packages$QualityMetric),c('Package', 'QualityMetric')], n = 50)
+packages <- transform(packages, LogisticQualityMetric = invlogit(predict(logit.fit, newdata = packages)))
+tail(packages[order(packages$LogisticQualityMetric),c('Package', 'LogisticQualityMetric')], n = 50)
+packages <- transform(packages, Error = abs(LogisticQualityMetric - InstallProbability))
 
-write.csv(packages[order(packages$QualityMetric),c('Package', 'QualityMetric')],
+write.csv(packages[order(packages$LogisticQualityMetric),c('Package', 'LogisticQualityMetric')],
           file = file.path('reports', 'logit_predictions.csv'),
           row.names = FALSE)
 
 # Make some plots to see how the predictors work on their own.
 pdf('graphs/logit_dependency.pdf')
-ggplot(design.matrix, aes(x = DependencyCount, y = Installed)) +
+ggplot(design.matrix, aes(x = log(1 + DependencyCount), y = Installed)) +
   geom_jitter() +
   geom_smooth(method = 'lm') +
   ylim(c(0, 1))
 dev.off()
 
 pdf('graphs/logit_suggestion.pdf')
-ggplot(design.matrix, aes(x = SuggestionCount, y = Installed)) +
+ggplot(design.matrix, aes(x = log(1 + SuggestionCount), y = Installed)) +
   geom_jitter() +
   geom_smooth(method = 'lm') +
   ylim(c(0, 1))
 dev.off()
 
 pdf('graphs/logit_importing.pdf')
-ggplot(design.matrix, aes(x = ImportCount, y = Installed)) +
+ggplot(design.matrix, aes(x = log(1 + ImportCount), y = Installed)) +
   geom_jitter() +
   geom_smooth(method = 'lm') +
   ylim(c(0, 1))
 dev.off()
 
 pdf('graphs/logit_inclusion.pdf')
-ggplot(design.matrix, aes(x = ViewsIncluding, y = Installed)) +
+ggplot(design.matrix, aes(x = log(1 + ViewsIncluding), y = Installed)) +
   geom_jitter() +
   geom_smooth(method = 'lm') +
   ylim(c(0, 1))
 dev.off()
 
+pdf('graphs/logit_quality.pdf')
+ggplot(packages, aes(x = LogisticQualityMetric, y = InstallProbability)) +
+  geom_jitter() +
+  geom_smooth(method = 'lm') +
+  ylim(c(0, 1))
+dev.off()
+
+epsilon <- 0.3
+pdf('graphs/logit_errors.pdf')
+ggplot(subset(packages, Error > epsilon & RecommendedPackage == 0),
+       aes(x = LogisticQualityMetric + runif(nrow(subset(packages, Error > epsilon & RecommendedPackage == 0)), 0, 0.4),
+           y = InstallProbability + runif(nrow(subset(packages, Error > epsilon & RecommendedPackage == 0)), -0.4, 0.4))) +
+  geom_text(aes(label = Package)) +
+  xlim(c(0, 1)) +
+  ylim(c(0, 1)) +
+  opts(title = 'Where Our Linear Metric Fails') +
+  xlab('Linear Quality Metric') +
+  ylab('P(Package is Installed)')
+dev.off()
+
+cat(paste('Mean Absolute Error:', with(packages, mean(Error)), '\n'))

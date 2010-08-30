@@ -49,70 +49,61 @@ packages <- merge(packages,
                   all.x = TRUE)
 packages$RecommendedPackage <- ifelse(is.na(packages$RecommendedPackage), 0, 1)
 
-# Grab our installation data for training our prediction algorithm.
-user.count <- with(installations, length(unique(User)))
-
-packages <- transform(packages,
-                      InstallProbability = sapply(packages$Package,
-                                                  function (p)
-                                                  {
-                                                    nrow(subset(installations,
-                                                                Package == as.character(p))) / user.count
-                                                  }))
-
 # Fit a linear model only to packages that were installed by "choice"
 lm.fit <- lm(InstallProbability ~ DependencyCount + SuggestionCount + ImportCount + ViewsIncluding + CorePackage + RecommendedPackage,
              data = packages)
 summary(lm.fit)
-packages <- transform(packages, QualityMetric = predict(lm.fit, newdata = packages))
-tail(packages[order(packages$QualityMetric),c('Package', 'QualityMetric')], n = 50)
-packages <- transform(packages, Error = abs(QualityMetric - InstallProbability))
+packages <- transform(packages, LinearQualityMetric = predict(lm.fit, newdata = packages))
+tail(packages[order(packages$LinearQualityMetric),c('Package', 'LinearQualityMetric')], n = 50)
+packages <- transform(packages, Error = abs(LinearQualityMetric - InstallProbability))
 
 # Make some plots to see how the predictors work on their own.
-pdf('graphs/dependency.pdf')
-ggplot(packages, aes(x = DependencyCount, y = InstallProbability)) +
+pdf('graphs/linear_dependency.pdf')
+ggplot(packages, aes(x = log(1 + DependencyCount), y = InstallProbability)) +
   geom_jitter() +
   geom_smooth(method = 'lm') +
   ylim(c(0, 1))
 dev.off()
 
-pdf('graphs/suggestion.pdf')
-ggplot(packages, aes(x = SuggestionCount, y = InstallProbability)) +
+pdf('graphs/linear_suggestion.pdf')
+ggplot(packages, aes(x = log(1 + SuggestionCount), y = InstallProbability)) +
   geom_jitter() +
   geom_smooth(method = 'lm') +
   ylim(c(0, 1))
 dev.off()
 
-pdf('graphs/importing.pdf')
-ggplot(packages, aes(x = ImportCount, y = InstallProbability)) +
+pdf('graphs/linear_importing.pdf')
+ggplot(packages, aes(x = log(1 + ImportCount), y = InstallProbability)) +
   geom_jitter() +
   geom_smooth(method = 'lm') +
   ylim(c(0, 1))
 dev.off()
 
-pdf('graphs/inclusion.pdf')
-ggplot(packages, aes(x = ViewsIncluding, y = InstallProbability)) +
+pdf('graphs/linear_inclusion.pdf')
+ggplot(packages, aes(x = log(1 + ViewsIncluding), y = InstallProbability)) +
   geom_jitter() +
   geom_smooth(method = 'lm') +
   ylim(c(0, 1))
 dev.off()
 
-pdf('graphs/quality.pdf')
-ggplot(packages, aes(x = QualityMetric, y = InstallProbability)) +
+pdf('graphs/linear_quality.pdf')
+ggplot(packages, aes(x = LinearQualityMetric, y = InstallProbability)) +
   geom_jitter() +
   geom_smooth(method = 'lm') +
   ylim(c(0, 1))
 dev.off()
 
 epsilon <- 0.3
-pdf('graphs/errors.pdf')
+pdf('graphs/linear_errors.pdf')
 ggplot(subset(packages, Error > epsilon & RecommendedPackage == 0),
-       aes(x = QualityMetric + runif(nrow(subset(packages, Error > epsilon & RecommendedPackage == 0)), 0, 0.4),
+       aes(x = LinearQualityMetric + runif(nrow(subset(packages, Error > epsilon & RecommendedPackage == 0)), 0, 0.4),
            y = InstallProbability + runif(nrow(subset(packages, Error > epsilon & RecommendedPackage == 0)), -0.4, 0.4))) +
   geom_text(aes(label = Package)) +
   xlim(c(0, 1)) +
   ylim(c(0, 1)) +
-  opts(title = 'Where Our Metric Fails') +
-  xlab('Quality Metric') +
+  opts(title = 'Where Our Linear Metric Fails') +
+  xlab('Linear Quality Metric') +
   ylab('P(Package is Installed)')
 dev.off()
+
+cat(paste('Mean Absolute Error:', with(packages, mean(Error)), '\n'))
