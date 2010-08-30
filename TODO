@@ -18,3 +18,5 @@ ExplicitRating ~ DependsRankRank + SuggestsPageRank + ImportsPageRank + ViewsInc
 (8) Clean up authors.csv files by auto-cleaning Authors entries.
 
 (9) Incorporate author's package count into predictive model.
+
+(10) Transform existing weak probability regression into a proper logistic regression: for each user in installations, explicitly create the implicit 0 entries for non-installed packages.
