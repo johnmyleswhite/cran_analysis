@@ -19,4 +19,8 @@ ExplicitRating ~ DependsRankRank + SuggestsPageRank + ImportsPageRank + ViewsInc
 
 (9) Incorporate author's package count into predictive model.
 
-(10) Transform existing weak probability regression into a proper logistic regression: for each user in installations, explicitly create the implicit 0 entries for non-installed packages.
+(10) Include reverse dependencies, suggests, imports.
+
+(11) Being at the end of chains of dependencies matters.
+
+(12) Consider log transforming some predictors
