@@ -65,7 +65,17 @@ design.matrix <- merge(design.matrix,
                        all = TRUE)
 design.matrix$Installed <- ifelse(is.na(design.matrix$Installed), 0, 1)
 
-logit.fit <- glm(Installed ~ DependencyCount + SuggestionCount + ImportCount + ViewsIncluding + CorePackage + RecommendedPackage,
+packages <- transform(packages, LogDependencyCount = log(1 + DependencyCount))
+packages <- transform(packages, LogSuggestionCount = log(1 + SuggestionCount))
+packages <- transform(packages, LogImportCount = log(1 + ImportCount))
+packages <- transform(packages, LogViewsIncluding = log(1 + ViewsIncluding))
+
+design.matrix <- transform(design.matrix, LogDependencyCount = log(1 + DependencyCount))
+design.matrix <- transform(design.matrix, LogSuggestionCount = log(1 + SuggestionCount))
+design.matrix <- transform(design.matrix, LogImportCount = log(1 + ImportCount))
+design.matrix <- transform(design.matrix, LogViewsIncluding = log(1 + ViewsIncluding))
+
+logit.fit <- glm(Installed ~ LogDependencyCount + LogSuggestionCount + LogImportCount + LogViewsIncluding + CorePackage + RecommendedPackage,
                  data = design.matrix,
                  family = binomial(link = 'logit'))
 summary(logit.fit)
@@ -73,7 +83,8 @@ summary(logit.fit)
 invlogit <- function(z) {1 / (1 + exp(-z))}
 packages <- transform(packages, LogisticQualityMetric = invlogit(predict(logit.fit, newdata = packages)))
 tail(packages[order(packages$LogisticQualityMetric),c('Package', 'LogisticQualityMetric')], n = 50)
-packages <- transform(packages, Error = abs(LogisticQualityMetric - InstallProbability))
+packages <- transform(packages, AbsoluteError = abs(LogisticQualityMetric - InstallProbability))
+tail(packages[order(packages$AbsoluteError),c('Package', 'AbsoluteError')], n = 50)
 
 write.csv(packages[order(packages$LogisticQualityMetric),c('Package', 'LogisticQualityMetric')],
           file = file.path('reports', 'logit_predictions.csv'),
@@ -115,17 +126,19 @@ ggplot(packages, aes(x = LogisticQualityMetric, y = InstallProbability)) +
   ylim(c(0, 1))
 dev.off()
 
-epsilon <- 0.3
+epsilon <- 0.33
 pdf('graphs/logit_errors.pdf')
-ggplot(subset(packages, Error > epsilon & RecommendedPackage == 0),
-       aes(x = LogisticQualityMetric + runif(nrow(subset(packages, Error > epsilon & RecommendedPackage == 0)), 0, 0.4),
-           y = InstallProbability + runif(nrow(subset(packages, Error > epsilon & RecommendedPackage == 0)), -0.4, 0.4))) +
-  geom_text(aes(label = Package)) +
+ggplot(subset(packages, AbsoluteError > epsilon & RecommendedPackage == 0),
+       aes(x = LogisticQualityMetric,
+           y = InstallProbability)) +
+  geom_text(aes(label = Package, color = AbsoluteError, size = AbsoluteError)) +
   xlim(c(0, 1)) +
   ylim(c(0, 1)) +
-  opts(title = 'Where Our Linear Metric Fails') +
-  xlab('Linear Quality Metric') +
-  ylab('P(Package is Installed)')
+  opts(title = 'Where Our Package Metric Fails') +
+  xlab('Predicted Probability') +
+  ylab('Empirical Probability')
 dev.off()
 
-cat(paste('Mean Absolute Error:', with(packages, mean(Error)), '\n'))
+cat(paste('Mean Absolute Error:', with(packages, mean(AbsoluteError)), '\n'))
+cat(paste('Max Absolute Error:', with(packages, max(AbsoluteError)), '\n'))
+cat(paste('Min Absolute Error:', with(packages, min(AbsoluteError)), '\n'))

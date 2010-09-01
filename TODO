@@ -24,3 +24,19 @@ ExplicitRating ~ DependsRankRank + SuggestsPageRank + ImportsPageRank + ViewsInc
 (11) Being at the end of chains of dependencies matters.
 
 (12) Consider log transforming some predictors
+
+(13) Give users top 25 packages, ask them to re-order them in a way they think is better.
+
+(14) Mean absolute error is already really lower (3%), but we want to cut down max absolute error, which is quite high (65%). May need better training set. May need different predictors.
+
+(15) Prizes: (a) best new predictor, (b) best improvement in mean error, (c) best improvement in max error.
+
+(16) Simply adding a Hadley indicator variable would increase the algorithm's performance enormously.
+
+(17) Count number of packages connected at all to current package, rather than immediate adjacencies.
+
+(18) Make a sortable table showing empirical probability and installed probability.
+
+(19) Use distance from DESCRIPTION release date as a predictor
+
+(20) Make a second pass through logit model; take into account that installed probability of a dependency must be at least installed probability of package that depends on it.

@@ -106,4 +106,6 @@ ggplot(subset(packages, Error > epsilon & RecommendedPackage == 0),
   ylab('P(Package is Installed)')
 dev.off()
 
-cat(paste('Mean Absolute Error:', with(packages, mean(Error)), '\n'))
+cat(paste('Mean Absolute Error:', with(packages, mean(AbsoluteError)), '\n'))
+cat(paste('Max Absolute Error:', with(packages, max(AbsoluteError)), '\n'))
+cat(paste('Min Absolute Error:', with(packages, min(AbsoluteError)), '\n'))
